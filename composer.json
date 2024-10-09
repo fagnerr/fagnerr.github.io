@@ -1,0 +1,21 @@
+{
+    "name": "fagner.dev.br/app",
+    "description": "Example Project is a lightweight PHP class for detecting examples",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Fagner Romão",
+            "email": "contato@fagner.dev.br",
+            "homepage": "https://www.fagner.dev.br",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+            "psr-4":{
+                    "App\\": "fagner.dev.br/"
+                    }
+                },
+    "require": {
+        "phpmailer/phpmailer": "^6.9"
+    }
+}
